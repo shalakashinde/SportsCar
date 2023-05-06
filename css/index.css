@@ -1,0 +1,118 @@
+* {
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+body {
+    background: #d3d3d33b;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+li {
+    float: left;
+    padding-left:20px;
+}
+ul li a {
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+li a {
+    /* display: block; */
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover:not(.active) {
+    /* display: block; */
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 25px;
+}
+li a.active {
+    color: white;
+    background-color: blue;
+}
+li a {
+    color: white;
+}
+.navbar-collapse i {
+    font-size: 25px;
+}
+.navbar-collapse ul li a {
+    color: black;
+    font-weight: bold;
+}
+.input-group {
+    position: relative;
+    display: inline-block;
+}
+.input-group input[type="text"] {
+    padding-left: 2.5rem;
+}
+.input-group::before {
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: blue;
+    color: white;
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.buy-now-btn {
+    border-radius: 30px;
+    padding: 5px 40px;
+    font-weight: bold;
+}
+.cards {
+    border-radius: 1em;
+    padding: 1.5em;
+}
+.spedometer-img,
+.carsheet-img {
+    width: 70px;
+    height: 70px;
+}
+.firstcard-text i,
+.firstcard-text strong {
+    font-size: 40px;
+    font-weight: bold;
+}
+.firstcard-text sup {
+    vertical-align: text-top;
+}
+.bold-text {
+    font-weight: bold;
+    display: inline-block;
+    font-size: 40px;
+}
+.search-icon {
+    color: white;
+}
+
+.close-icon {
+    color: black;
+}
+
+.text-box {
+    width: 250px;
+}
+
+.search-span {
+    background-color: blue;
+
+}
